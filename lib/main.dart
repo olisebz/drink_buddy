@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:drink_buddy/screens/goal_input_screen.dart';
 
 void main() {
   runApp(const DrinkBuddyApp());
@@ -23,9 +24,7 @@ class DrinkBuddyApp extends StatelessWidget {
           foregroundColor: Colors.white,
         ),
       ),
-      home: const Scaffold(
-        body: Center(child: Text('DrinkBuddy - Coming Soon')),
-      ),
+      home: const GoalInputScreen(),
     );
   }
 }
