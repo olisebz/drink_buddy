@@ -22,7 +22,7 @@ class _WaterTrackerScreenState extends State<WaterTrackerScreen> {
   bool _isShakeDetectionActive = true;
   DateTime? _lastShakeTime;
 
-  static const double _shakeThreshold = 15;
+  static const double _shakeThreshold = 35;
   static const Duration _minTimeBetweenShakes = Duration(milliseconds: 500);
   double _lastX = 0, _lastY = 0, _lastZ = 0;
   DateTime? _lastAccelUpdate;
